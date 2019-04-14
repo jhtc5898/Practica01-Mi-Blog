@@ -1,0 +1,38 @@
+div
+{
+	border:1px solid black;
+}
+#cabecera
+{
+    text-align: center;
+}
+#columna_izquierda
+{
+	position:absolute;
+	width:200px;
+	left:10px;
+	top:250px;
+	background-color:azure;
+	border-radius:15px;
+	
+}
+#columna_derecha
+{
+	position:absolute;
+	width:450px;
+	right:10px;
+	top:250px;
+}
+#columna_central
+{
+	margin-left:250px;
+	margin-right:500px;
+}
+
+#pie
+{
+    margin-top:300px;
+    width:500%;
+    height:50px;
+    background-color:rgb(24, 118, 155);
+}

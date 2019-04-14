@@ -2,10 +2,7 @@
 <html lang="es">
 <head>
     <!--
- New Perspectives on HML5 and CSS3, 7th Edition 
- Tutorial 1
- Tutorial Case
- General Information about Curbside Thai
+
  Author: John Tenesaca.
  Date: 30/3/2019.
  
@@ -14,41 +11,18 @@
    <title>
        C ++
     </title>
-    <style rel="stylesheet">
-        header {
-            text-align: center;
-    margin: 0;  /* el margen */
-    background-color:azure ; 
-    font-weight: normal;
-    border: 1px solid black;
-    padding: 20px;  /* el espacio entre el texto y el body   */
- }
-
- table {
-    text-align: center;
-    margin: 0;  /* el margen */
-    background-color:rgb(250, 216, 216); 
-    font-weight: normal;
-    border: 1px solid black;
-    padding: 20px;  /* el espacio entre el texto y el body   */
- }
- p {
-            text-align: center;
-    margin: 0;  /* el margen */
-    background-color:azure ; 
-    font-weight: normal;
-    border: 1px solid black;
-    padding: 20px;  /* el espacio entre el texto y el body   */
- }
-   
-
-        </style>
+    <link rel="stylesheet" href="Css/Style.css" type="text/css"/>
+    <link rel="stylesheet" href="Css/Diseño.css" type="text/css"/>
+    <style rel="stylesheet">  </style>
 
 </head>
 
 <body>
         <header>
+          <div id="cabecera">   
                 <img src="images/progra.jpg" alt= "Programacion" />
+        </div>
+        <div id="columna_izquierda"> 
                 <nav>
                         <ul>
                                         <li><a href="index.html">Inicio</a></li>
@@ -59,16 +33,20 @@
                                         <li><a href="Contacto.html">Contacto</a></li>
                         </ul>
                         </nav>
+                </div>
              </header>
+
 <section>
+                <div id="columna_central">
                 <h1>
                                 C++
                             </h1>
                         
-                            <p>
+                            <p class="ColorFuerte">
                                     
                                     <strong>C++</strong>  <b> es un lenguaje de programación </b>  <a>orientado a objetos  </a> <cite> que toma la base del lenguaje C  </cite>y le agrega la capacidad de abstraer tipos como en Smalltalk. <i> C++ </i> es un lenguaje de programación diseñado a mediados de los años 80 por Bjarne Stroustrup.
                             </p>
+                            
                             <article>
                                     <h5>
                                             1.2
@@ -102,10 +80,12 @@
                                                    </table>
                           <img src="images/c1.png" alt= "C1" />
                             </article>
+                        </div>
+                        <div id="columna_derecha"> 
                             <h2>
                                 Video Informativo
                             </h2>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/DKiIPwB0VPc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="400" height="200" src="https://www.youtube.com/embed/DKiIPwB0VPc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         
                             <p>
                                     El lenguaje de programación C++ fue creado en los años 80 por Bjarne Stroustrup basando en el lenguaje C. El C++ es un lenguaje orientado a objetos al que se le añadieron características y cualidades de las que carecía el lenguaje C.
@@ -122,11 +102,13 @@
                                     
                                     Todo esto ha ocasionado que sus detractores lo usen como argumento de crítica sobre el C++. Pero por otra parte precisamente esto es esto es lo que le da mayor valor, el ser un lenguaje más pragmático y sencillo que su antecesor el lenguaje C.
                             </p>
+                        </div>
 </section>
-   
+
+<div id="pie"> 
     <footer>
                 Realizado por John Tenesaca, Universidad Politecnica Salesiana.
 </footer>
-    
+</div>   
 </body>
 </html>

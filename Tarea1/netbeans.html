@@ -8,53 +8,46 @@
  
  -->
    <meta charset="utf-8" />
+   <link rel="stylesheet" href="Css/Style.css" type="text/css"/>
+   <link rel="stylesheet" href="Css/Diseño.css" type="text/css"/>
+   <style rel="stylesheet"> </style>
    <title>
        Netbeans
     </title>
-    <style rel="stylesheet">
-        header {
-            text-align: center;
-    margin: 0;  /* el margen */
-    background-color:azure ; 
-    font-weight: normal;
-    border: 1px solid black;
-    padding: 20px;  /* el espacio entre el texto y el body   */
- }
- iframe {
-    text-align: center;
-    margin: 0;  /* el margen */
-    background-color:black; 
-    font-weight: normal;
-    border: 1px solid black;
-    padding: 20px;  /* el espacio entre el texto y el body   */
- }
-
-        </style>
-
+   
 </head>
 
 <body>
         <header>
+         <div id="cabecera"> 
                 <img src="images/progra.jpg" alt= "Programacion" />
+        </div>
+        <div id="columna_izquierda"> 
                 <nav>
                         <ul>
-                                <li><a href="index.html">Inicio</a></li>
-                                <li><a href="netbeans.html">Netbeans</a></li>
-                                <li><a href="javascript.html">JavaScript</a></li>
-                                <li><a href="c.html">C++</a></li>
-                                <li><a href="python.html">Python</a></li>
-                                <li><a href="Contacto.html">Contacto</a></li>
+                                        <li>   <a href="#Articulo1">Articulo 1</a> </li>   
+                                        <li>     <a href="#Articulo2">Articulo 2</a>  </li> 
+                                                <li>       <a href="#Articulo3">Articulo 3</a> </li> 
+                                                        <li>       <a href="#Articulo3">Articulo 4</a> </li> 
+                                                                <li>      <a href="#Articulo3">Articulo 5</a> </li> 
+                                                                        <li>      <a href="#Articulo3">Articulo 6</a> </li> 
                         </ul>
                         </nav>
+                
+          
                 <nav>
-                                <a href="#Articulo1">Articulo 1</a>    
-                                <a href="#Articulo2">Articulo 2</a>  
-                                <a href="#Articulo3">Articulo 3</a> 
-                                <a href="#Articulo3">Articulo 4</a> 
-                                <a href="#Articulo3">Articulo 5</a> 
-                                <a href="#Articulo3">Articulo 6</a> 
-                </nav>
+                                <ul>
+                                        <li><a href="index.html">Inicio</a></li>
+                                        <li><a href="netbeans.html">Netbeans</a></li>
+                                        <li><a href="javascript.html">JavaScript</a></li>
+                                        <li><a href="c.html">C++</a></li>
+                                        <li><a href="python.html">Python</a></li>
+                                        <li><a href="Contacto.html">Contacto</a></li>
+                                </ul>
+                 </nav>
+                </div>
              </header>
+             <div id="columna_central"> 
     <section>
             <h6> 1.1 </h6>
                 <article id="Articulo1">
@@ -63,7 +56,7 @@
                                                     </h5>
                                                 
                                                     <p>
-                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NcY70mPFM6Q" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NcY70mPFM6Q"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                     </p>
                                                     
                                                     <p>
@@ -82,7 +75,7 @@
                 <p>
                                 NetBeans comenzó como un proyecto estudiantil en Republica Checa (originalmente llamado Xelfi), en 1996 bajo la tutoría de la Facultad de Matemáticas y Física en la Universidad Carolina en Praga. La meta era escribir un entorno de desarrollo integrado (IDE) para Java parecida a la de Delphi.
                 </p>
-                <img src="images/Como.png" alt= "Como" />
+                <img src="images/Como.png" width="500" height="200" alt= "Como" />
                 </article>
 
                 <article id="Articulo3">
@@ -96,9 +89,11 @@
                                         Desarrolla aplicaciones web dinámicas.
                                         Desarrollar aplicaciones de servidor para foros en línea, almacenes, encuestas,procesamiento de formularios HTML y mucho más.
                         </p>
-                        <img src="images/como2.png" alt= "Programacioasn" />
+                        <img src="images/como2.png" width="500" height="200" alt= "Programacioasn" />
                 </article>
         </section>
+</div>
+<div id="columna_derecha"> 
     <section>
         <h4> 1.2 </h4> 
             <article id="Articulo4">
@@ -110,11 +105,11 @@
             </p>
             
             <p>
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/rCVvi3IXll0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="400" height="200" src="https://www.youtube.com/embed/rCVvi3IXll0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            
             </p>
 
-            <img src="images/Presentacion.jpg" alt= "Presentacion" /> 
+            <img src="images/Presentacion.jpg" width="400" height="200" alt= "Presentacion" /> 
 
             </article>
 
@@ -128,20 +123,22 @@
                         
                         Seleccionamos "Accept License Agreement" en Java SE Development Kit 7u10 (descargamos la versión correpondiente a nuestro sistema) en nuestro caso Windows X64 (jdk-7u10-windows-x64.exe):
          </p>
-         <img src="images/Instalacion.jpg" alt= "NetIn" /> 
+         <img src="images/Instalacion.jpg" width="400" height="200" alt= "NetIn" /> 
         </article>
         
         <article id="Articulo6">
         <h5>1.3 </h5>
         <p> Accedemos a la carpeta donde hemos guardado el archivo descargado, en nuestro caso y ejecutaremos el fichero descargado (jdk-7u10-windows-x64.exe), haciendo doble clic sobre él, no saldrá el siguiente mensaje de Advertencia de seguridad de Windows 7 pulsaremos "Ejecutar"
         </p>
-        <img src="images/ins2.png" alt= "NetDos" /> 
+        <img src="images/ins2.png" width="400" height="200" alt= "NetDos" /> 
         </article>
 </section>
-
-
+</div>
+<div id="pie">
     <footer>
-     Realizado por John Tenesaca, <cite>Universidad Politecnica Salesiana </cite>.
-   </footer>
+                                Realizado por John Tenesaca, <cite>Universidad Politecnica Salesiana </cite>.
+ </footer>
+</div>
+    
 </body>
 </html>

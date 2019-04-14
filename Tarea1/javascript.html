@@ -2,10 +2,7 @@
 <html lang="es">
 <head>
     <!--
- New Perspectives on HML5 and CSS3, 7th Edition 
- Tutorial 1
- Tutorial Case
- General Information about Curbside Thai
+ 
  Author: John Tenesaca.
  Date: 30/3/2019.
  
@@ -14,33 +11,18 @@
    <title>
        JavaScript
     </title>
-    <style rel="stylesheet">
-        header {
-            text-align: center;
-    margin: 0;  /* el margen */
-    background-color:azure ; 
-    font-weight: normal;
-    border: 1px solid black;
-    padding: 20px;  /* el espacio entre el texto y el body   */
- }
-
- iframe {
-    text-align: center;
-    margin: 0;  /* el margen */
-    background-color:aqua; 
-    font-weight: normal;
-    border: 1px solid black;
-    padding: 20px;  /* el espacio entre el texto y el body   */
- }
-   
-
-        </style>
+    <link rel="stylesheet" href="Css/Style.css" type="text/css"/>
+    <link rel="stylesheet" href="Css/Diseño.css" type="text/css"/>
+    <style rel="stylesheet"> </style>
 
 </head>
 
 <body>
         <header>
+                <div id="cabecera"> 
                 <img src="images/progra.jpg" alt= "Programacion"/>
+               </div>
+               <div id="columna_izquierda"> 
                 <nav>
                         <ul>
                                         <li><a href="index.html">Inicio</a></li>
@@ -52,7 +34,9 @@
                                 
                         </ul>
                         </nav>
+                </div>
              </header>
+ <div id="columna_central"> 
 <section> 
                 <h1>
                                 <code> JavaScript</code>
@@ -89,7 +73,9 @@
                         
                             </p>
 </section>
- 
+</div>
+
+<div id="columna_derecha"> 
 <section>
     <h2>
             Historia
@@ -102,10 +88,13 @@
                 <img src="images/javas1.png" alt= "Programacion"/> 
 </article>
   
-</section>  
-<footer>
-                Realizado por John Tenesaca, Universidad Politecnica Salesiana.
-</footer>
-  
+</section> 
+</div> 
+
+<div id="pie">
+                <footer>
+                                Realizado por John Tenesaca, Universidad Politecnica Salesiana.
+                </footer>
+</div>
 </body>
 </html>

@@ -2,11 +2,7 @@
 <html lang="es">
 <head>
 <!--
-    New Perspectives on HTML5 and CSS3, 7th Edition
-    Tutorial 1
-    Tutorial Case
-    
-    Curbside Thai Contact Information
+
     Author: 
     Date:   
 
@@ -15,20 +11,28 @@
 
    <meta charset="utf-8" />
    <title>La Programacion</title>
+   <link rel="stylesheet" href="Css/Style.css" type="text/css"/>
+   <link rel="stylesheet" href="Css/Diseño.css" type="text/css"/>
+   <style rel="stylesheet">  </style>
 </head>
 
 <body>
-      <h1  style="color:brown;" >
+      <div id="cabecera"> 
+            <img src="images/progra.jpg" alt= "Programacion"/> 
+         </div>
+   
+      <h1>
             <a>  El mundo de la Programacion  </a> 
           </h1>
-          <p>
-         <b> Deseas conectarte </b>  con la empresa contctanos con el 0125654654 por correo como programacion@gmail.com 
-         </p> 
+      
+          <div id="columna_izquierda">  
          <p>
             Nombre de la empresa:Carrerifull
          </p> 
+      
+     
           <header>
-             <img src="images/progra.jpg" alt= "Programacion"/>
+               
              <nav>
                      <ul>
                                      <li><a href="index.html">Inicio</a></li>
@@ -39,25 +43,45 @@
                                      <li><a href="Contacto.html">Contacto</a></li>
                      </ul>
                      </nav>
+                 
           </header> 
-
+         </div>
+      
    <section>
+         <div id="columna_central">
       <h5>Conoce mas</h5>
          <p>
                <cite> Conoce </cite> <code> mas sobre la programacion dando </code> <i>  click en el  tema que te guste. </i>
-           </p>   
+           </p> 
+           <p>
+               <b> Deseas conectarte </b>  con la empresa contactanos con el 0125654654 por correo como programacion@gmail.com 
+               </p>
+               
+               <button>
+                     <b>Enviar</b>
+                     <img src="images/progra.jpg" width="261" height="35" alt="">
+                     </button>
+
+            </div> 
+            <div id="columna_derecha">
+                  <p>
+                        <b> Deseas conectarte </b>  con la empresa contactanos con el 0125654654 por correo como programacion@gmail.com 
+                        </p>  
            <nav>
-              <a href="netbeans.html"><img src="images/netbeans.png" alt="netbeans"  /></a>
-              <a href="python.html"><img src="images/python.jpg" alt="Python" /></a>
-              <a href="c.html"><img src="images/c.png" alt="C" /></a>
-              <a href="javascript.html"><img src="images/javascript.png" alt="JavaScript" /></a>
+              <a href="netbeans.html"><img src="images/netbeans.png" width="100" height="100" alt="netbeans"  /></a>
+              <a href="python.html"><img src="images/python.jpg" width="100" height="100" alt="Python" /></a>
+              <a href="c.html"><img src="images/c.png" width="100" height="100" alt="C" /></a>
+              <a href="javascript.html"><img src="images/javascript.png"  width="100" height="100" alt="JavaScript" /></a>
            </nav>
+         </div> 
            
    </section>  
 
-           
+
+   <div id="pie">       
              <footer>
                Realizado por John Tenesaca, Universidad Politecnica Salesiana.
              </footer>
+            </div>
           </body>
 </html>
